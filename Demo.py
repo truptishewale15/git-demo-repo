@@ -24,5 +24,9 @@ print("This is Demo file2-feature")
 
 print("Adding this line to check it builds in jenkins")
 
+a = 10
+b = 20
+c = a + b
+print("The sum of a and b is:", c)
 
 
