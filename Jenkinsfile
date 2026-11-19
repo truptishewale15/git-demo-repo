@@ -5,6 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Hello World from Build'
+                sh 'python3 -m py_compile Demo.py'
+                sh 'python3 Demo.py'
             }
         }
 
