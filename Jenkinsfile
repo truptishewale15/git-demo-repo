@@ -13,6 +13,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Hello World from Test'
+                sh 'python3 -m unittest discover -s tests -v'
             }
         }
 
