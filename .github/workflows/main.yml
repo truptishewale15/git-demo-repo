@@ -1,4 +1,4 @@
-name: hello-world
+name: git-demo-repo
 
 on: push
 
@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        run: echo "Building the project..."
-        echo "This is a demo for GitHub Actions"
+        run: |
+          echo "Building the project..."
+          echo "This is a demo for GitHub Actions"
         
